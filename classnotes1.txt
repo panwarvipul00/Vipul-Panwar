@@ -1,0 +1,28 @@
+1. Ternary operator (Greatest of three )
+package com.First;
+
+public class Greatest {
+	public static void main(String[] args) {
+	int one=100;
+	int two=500;
+	int three=300;
+	int x=one>two?one:two;
+	int y=two>three?two:three;
+	int greatest=x>y?x:y;
+	System.out.println("greatest " +greatest);
+
+}
+}
+
+2. Bitwise left and right shift operatorspackage com.First;
+
+public class BitwiseOP {
+	public static void main(String[] args) {
+	int num = 100;
+	int result = (num>>2) & 20;                        // bitwise and
+	                                              
+	                                                     
+	System.out.println("result : "+ result);
+
+}
+}
